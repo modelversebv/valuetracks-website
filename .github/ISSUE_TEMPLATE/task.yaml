@@ -1,0 +1,29 @@
+name: 'Task'
+description: General work item (docs, CI, refactor, maintenance)
+labels: ['task']
+title: '[Task]: '
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Break work into steps.
+      placeholder: |
+        - [ ] Task 1
+        - [ ] Task 2
+        - [ ] Task 3
+    validations:
+      required: false
+
+  - type: input
+    id: depends_on
+    attributes:
+      label: Depends on
+      description: 'Link any issues (e.g., #123, #124).'

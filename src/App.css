@@ -1,0 +1,19 @@
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.transition-cookie-banner-height {
+  transition: height 0.5s ease-in-out;
+}
+
+.transition-nav-height {
+  transition: height 0.5s ease-in-out;
+}
+
+.transition-card-height {
+  transition: height 0.5s ease-in-out;
+}

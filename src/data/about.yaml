@@ -1,0 +1,22 @@
+- point:
+  title: 'Our Mission'
+  message: 'Our mission is to make organisations more secure. We strive to deliver an efficient and effective platform that is both powerful and user-friendly, enabling organizations to protect their (digital) assets and maintain trust with their stakeholders.'
+
+- point:
+  title: 'Our Team'
+  message: 'We are experienced professionals from diverse backgrounds, including cybersecurity, software development, and business strategy. Together, we are dedicated to create our security platform Modelverse that addresses the evolving challenges of the digital landscape.'
+  button:
+    text: 'More..'
+    url: '/team'
+
+- point:
+  title: 'Why Choose Us'
+  list:
+    - caption: 'Expertise'
+      message: 'Deep knowledge in cybersecurity, IT, AI, risk management and business sectors.'
+
+    - caption: 'Innovation'
+      message: 'Cutting-edge platform tailored to modern business needs.'
+
+    - caption: 'Customer Focus'
+      message: 'Commitment to exceptional service and support.'

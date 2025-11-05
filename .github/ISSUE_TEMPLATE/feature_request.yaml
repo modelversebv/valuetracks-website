@@ -1,0 +1,39 @@
+name: 'Feature request'
+description: Propose a new feature or enhancement
+labels: ['enhancement']
+title: '[Feature]: '
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What problem does this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Define what "done" looks like.
+      placeholder: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed Approach (optional)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: ['P0', 'P1', 'P2', 'P3']
+    validations:
+      required: true
