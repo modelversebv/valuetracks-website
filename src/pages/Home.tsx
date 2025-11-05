@@ -1,5 +1,3 @@
-import { useNavigate } from 'react-router-dom'
-
 import { Banner } from '@/components/app/misc/banner'
 import { Layout } from '@/components/layout'
 import infoFile from '@/data/home.yaml?raw'
@@ -36,7 +34,6 @@ const homeBanner = (
 
 export function Home() {
   const info = parse(infoFile)
-  const navigate = useNavigate()
 
   return (
     <Layout home={true} banner={homeBanner}>
